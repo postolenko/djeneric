@@ -902,6 +902,27 @@ textarea:focus {
     font-weight: normal;
 }
 
+/*.about_thumbs {
+
+}
+
+.about_thumb {
+    width: 1041px;
+    height: 312px;
+    background-image: url(img/thumb_wrapp.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}*/
+
+/*.figure {
+    width: 256px;
+    height: 226px;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}*/
+
+
 /*-- /Section 2 - Main Page --*/
 
 /*-- Section 3 - Main Page --*/
@@ -1122,6 +1143,80 @@ textarea:focus {
 }
 
 /*-- /Tabs --*/
+
+.steps_wrapp {
+
+}
+
+.steps_thumbs {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.step_thumb {
+    width: 254px;
+    margin: 10px;
+    text-align: center;
+}
+
+.icon_thumb {
+    width: 280px;
+    height: 260px;
+    margin: 2px 0;
+    background-image: url(img/romb.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -16px;
+}
+
+.step_thumb .num {
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 13px;
+    right: 62px;
+    text-align: center;
+    font-size: 46px;
+    line-height: 79px;
+    color: #fff;
+    font-weight: normal;    
+}
+
+.step_thumb .icon {
+    width: 200px;
+    height: 172px;
+    position: absolute;
+    top: 51px;
+    left: 18px;
+}
+
+.step_thumb .icon img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 84px;
+    max-height: 84px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.step_thumb p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #373737;
+    font-weight: 500;
+}
 
 /*-- /Section 4 - Main Page --*/
 

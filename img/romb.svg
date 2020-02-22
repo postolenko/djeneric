@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="OBJECTS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 163.973 167" style="enable-background:new 0 0 163.973 167;" xml:space="preserve">
+<g style="display:none;">
+	
+		<image style="display:inline;overflow:visible;opacity:0.45;" width="114" height="115" xlink:href="7560B1AF.png"  transform="matrix(1 0 0 1 51.9729 35)">
+	</image>
+	<g style="display:inline;">
+		<polygon style="fill:#FFFFFF;" points="118.9,43.08 84.878,43.08 60.382,85.508 84.878,127.935 118.9,127.935 143.395,85.508 		
+			"/>
+	</g>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="71.8288" y1="85.6331" x2="159.7164" y2="85.6331">
+	<stop  offset="0" style="stop-color:#0D9FFF"/>
+	<stop  offset="1" style="stop-color:#45B779"/>
+</linearGradient>
+<path style="display:none;fill:url(#SVGID_1_);" d="M134.003,130.171H97.543L71.829,85.633l25.714-44.538h36.459l25.714,44.538
+	L134.003,130.171z M99.98,125.95h31.585l23.276-40.316l-23.276-40.317H99.98L76.704,85.633L99.98,125.95z"/>
+<g>
+	
+		<image style="overflow:visible;opacity:0.45;" width="163" height="146" xlink:href="7560B1AA.png"  transform="matrix(1 0 0 1 -8.0271 19)">
+	</image>
+	<g>
+		<polygon style="fill:#FFFFFF;" points="33.053,142.374 0,85.123 33.053,27.874 99.16,27.874 132.213,85.123 99.16,142.374 		"/>
+	</g>
+</g>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="4.0354" y1="85.1236" x2="128.1778" y2="85.1236">
+	<stop  offset="0" style="stop-color:#0D27B0"/>
+	<stop  offset="1" style="stop-color:#456EE1"/>
+</linearGradient>
+<polygon style="display:none;fill:url(#SVGID_2_);" points="97.142,31.368 35.071,31.368 4.035,85.124 35.071,138.879 
+	97.142,138.879 128.178,85.124 "/>
+<g style="display:none;">
+	
+		<image style="display:inline;overflow:visible;opacity:0.45;" width="83" height="83" xlink:href="7560B1A9.png"  transform="matrix(1 0 0 1 68.9729 -4)">
+	</image>
+	<g style="display:inline;">
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="77.1595" y1="30.8612" x2="129.3661" y2="30.8612">
+			<stop  offset="0" style="stop-color:#0D27B0"/>
+			<stop  offset="1" style="stop-color:#456EE1"/>
+		</linearGradient>
+		<circle style="fill:url(#SVGID_3_);" cx="103.263" cy="30.861" r="26.103"/>
+	</g>
+</g>
+</svg>
