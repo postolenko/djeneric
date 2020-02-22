@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="ru">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
@@ -10,36 +8,38 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title>Dgeneric</title>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
-
 <body>
-
 	<div class="wrapper">
 
 	<!-- Header -->
 		
 	<header>
-
 		<div class="header_site">
 			<div class="row">
 				<div class="header_row">
+					<button class="respmenubtn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
 					<div class="logo_wrapp">
 						<a href="#" class="logo">
-							<img src="img/logo.svg" alt="" />
+							<img src="img/logo.png" alt="" />
 							<p>Pharma Medicals</p>
 						</a>
 					</div>
-					<div class="lang_wrapp">
-						<ul class="lang">
-							<li><a href="#"><img src="img/uk.svg" alt="" /></a></li>
-							<li><a href="#"><img src="img/china.svg" alt="" /></a></li>
-							<li><a href="#"><img src="img/russia.svg" alt="" /></a></li>
+					<div class="contacts_wrapp">
+						<ul class="contacts_list">
+							<li><a href="#"><img src="img/telegram.svg" alt="" /></a></li>
+							<li><a href="http://whatsap.me/ufarm" target="_blank"><img src="img/whatsapp.svg" alt="" /></a></li>
+							<li><a href="tel:"><img src="img/call.svg" alt="" /></a></li>
 						</ul>
 					</div>
 				</div>
-				
-				<div class="main_nav_wrapp" id="resp_nav">
+			</div>
+			<div class="main_nav_wrapp" id="resp_nav">
+				<div class="row">
 					<ul class="main_nav">
 						<li><a href="#">О компании</a></li>
 						<li><a href="#">Преимущества</a></li>
@@ -49,14 +49,8 @@
 						<li><a href="#">Контакты</a></li>
 					</ul>
 				</div>
-				<button class="respmenubtn">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
 			</div>
 		</div>
-								
 	</header>
 
 	<!-- /Header -->
@@ -121,9 +115,11 @@
 
 			<!-- Section 2 - Main Page -->
 
-			<section class="bg_2">
+			<section class="sect_2 bg_2">
 				<div class="row">
-					<h2>О КОМПАНИИ Pharma Medicals</h2>
+					<div class="screen_title">
+						<h2>О КОМПАНИИ Pharma Medicals</h2>
+					</div>
 					<div class="text_wrapp">
 						<p>Компания «Pharma Medicals» с 2014 года занимается доставкой в Россию и страны СНГ высокоэффективных лекарственных препаратов для лечения социально значимых заболеваний, таких, как ВИЧ, онкология, гепатит С и другие.</p>
 						<p>Партнеры нашей компании – это крупнейшие фармацевтические концерны Индии: HETERO, Cipla, MYLAN, Zydus Cadila, NATCO, многократно зарекомендовавшие себя не только высочайшим качеством продукции, но и доступными ценами.</p>
@@ -169,10 +165,12 @@
 
 			<!-- Section 4 - Main Page -->
 
-			<section class="">
+			<section class="sect_4 bg_3">
 				<div class="row">
-					<h2>Препараты</h2>
-					<div class="text_wrapp">
+					<div class="screen_title">
+						<h2>Препараты</h2>
+					</div>
+					<div class="text_wrapp text_wrapp_2">
 						<p>Pharma Medicals работает с различными фармацевтическими производителями на основании прямых контрактов, что исключает риск приобретения фальсификатов и позволяет нам гарантировать качество поставляемых товаров.</p>
 						<p>Наши отношения с производителями базируются на принципах прозрачности, открытости и неукоснительного исполнения контрактных обязательств.</p>
 						<p>Основные направления работы – поставка препаратов для лечения вирусных и онкологических заболеваний. Ассортимент продукции составляет более 500 лекарственных наименований и постоянно расширяется, благодаря фундаментальным исследованиям и сотрудничеству в сфере технологий.</p>
@@ -181,18 +179,10 @@
 
 					<div class="tabs">
 						<div class="tabs_links">
-							<div>
-								<label class="tab_link active" for="tab_1">ВИЧ</label>
-							</div>
-							<div>
-								<label class="tab_link" for="tab_2">ГЕПАТИТ С</label>
-							</div>
-							<div>
-								<label class="tab_link" for="tab_3">ГЕПАТИТ B</label>
-							</div>
-							<div>
-								<label class="tab_link" for="tab_4">ОНКОЛОГИЧЕСКИЕ ЗАБОЛЕВАНИЯ</label>
-							</div>
+							<label class="tab_link active" for="tab_1">ВИЧ</label>
+							<label class="tab_link" for="tab_2">ГЕПАТИТ С</label>
+							<label class="tab_link" for="tab_3">ГЕПАТИТ B</label>
+							<label class="tab_link" for="tab_4">ОНКОЛОГИЧЕСКИЕ ЗАБОЛЕВАНИЯ</label>
 		                </div>
 		                <div class="tabs_content">
 							<input type="radio" name="tabs" class="radio_tab" id="tab_1">
@@ -327,7 +317,7 @@
 
 			<!-- Section 5 - Main Page -->
 
-			<section class="">
+			<section class="sect_5 bg_4">
 				<div class="row">
 					<div class="thumbs_sect">
 						<h2>НАШИ ПОСТАВЩИКИ</h2>
@@ -339,13 +329,13 @@
 								<img src="img/brand_02.jpg" alt="" />
 							</div>
 							<div class="thumb_1">
-								<img src="img/brand_03.jpg" alt="" />
-							</div>
-							<div class="thumb_1">
 								<img src="img/brand_04.jpg" alt="" />
 							</div>
 							<div class="thumb_1">
-								<img src="img/brand_05.jpg" alt="" />
+								<img src="img/brand_03.jpg" alt="" />
+							</div>							
+							<div class="thumb_1">
+								<img src="img/brand_08.jpg" alt="" />
 							</div>
 							<div class="thumb_1">
 								<img src="img/brand_06.jpg" alt="" />
@@ -354,7 +344,7 @@
 								<img src="img/brand_07.jpg" alt="" />
 							</div>
 							<div class="thumb_1">
-								<img src="img/brand_08.jpg" alt="" />
+								<img src="img/brand_05.jpg" alt="" />
 							</div>
 							<div class="thumb_1">
 								<img src="img/brand_09.jpg" alt="" />
@@ -411,7 +401,7 @@
 				<div class="col">
 					<ul class="mesangers">
 						<li><a href="#"><img src="img/telegram.svg" alt="" /></a></li>
-						<li><a href="#"><img src="img/whatsapp.svg" alt="" /></a></li>
+						<li><a href="http://whatsap.me/ufarm" target="_blank"><img src="img/whatsapp.svg" alt="" /></a></li>
 					</ul>
 				</div>
 			</div>

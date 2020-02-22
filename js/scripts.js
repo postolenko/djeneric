@@ -29,22 +29,19 @@ $(document).ready(function() {
         $(".goods_slider").not(".slick-initialized").slick({
             dots: false,
             arrows: true,
-            // autoplay: true,
-            // autoplaySpeed: 4000,
             speed: 1200,
             slidesToShow: 3,
             slidesToScroll: 1,
-            // fade: true,
             responsive: [
                 {
-                  breakpoint: 900,
+                  breakpoint: 920,
                   settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 1
                   }
                 },
                 {
-                  breakpoint: 540,
+                  breakpoint: 560,
                   settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -137,5 +134,41 @@ $(document).ready(function() {
     // ----------
 
     $("input[type='tel']").mask("+7 (999) 999-99-99");
+
+    // ----------
+
+    $(".respmenubtn").click(function(e) {
+        e.preventDefault();
+        if( $("#resp_nav").is(":hidden") ) {
+            $("#resp_nav").fadeIn(300);
+            $(this).addClass("active");
+        } else {
+            $("#resp_nav").fadeOut(300);
+            $(this).removeClass("active");
+        }
+    });
+
+    $("#resp_nav .close_btn").on("click", function(e) {
+        e.preventDefault();
+        $("#resp_nav").fadeOut(300);
+        $(".respmenubtn").removeClass("active");
+    });
+
+    $(this).keydown(function(eventObject){
+        if (eventObject.which == 27 &&
+            $("#resp_nav").is(":visible") ) {
+                $("#resp_nav").fadeOut(300);
+                $(".respmenubtn").removeClass("active");
+        }
+    });
+
+    // ----------
+
+    $(".scroll_down").click(function(e) {
+        e.preventDefault();
+        $("body, html").animate({
+            scrollTop: $(this).closest("section").next("section").offset().top
+        }, 1000);
+    });
 
 });
