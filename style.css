@@ -907,7 +907,7 @@ textarea:focus {
 
 .bg_2 {
     background-image: url(img/bg_2.jpg);
-    background-size: contain;
+    /*background-size: contain;*/
     background-repeat: no-repeat;
     background-position: top right;
 }
@@ -1099,7 +1099,7 @@ textarea:focus {
 
 .bg_3 {
     background-image: url(img/bg_3.jpg);
-    background-size: contain;
+    /*background-size: contain;*/
     background-repeat: no-repeat;
     background-position: top left;
 }
@@ -1339,7 +1339,7 @@ textarea:focus {
 
 .bg_4 {
     background-image: url(img/bg_4.jpg);
-    background-size: contain;
+    /*background-size: contain;*/
     background-repeat: no-repeat;
     background-position: top right;
 }
