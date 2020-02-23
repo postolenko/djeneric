@@ -928,26 +928,92 @@ textarea:focus {
     font-weight: normal;
 }
 
-/*.about_thumbs {
-
+.about_thumbs {
+    margin: 103px 0 17px 0;
 }
 
 .about_thumb {
     width: 1041px;
     height: 312px;
+    margin: 0 0 -26px 0;
+    position: relative;
     background-image: url(img/thumb_wrapp.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-}*/
+}
 
-/*.figure {
-    width: 256px;
-    height: 226px;
-    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-}*/
+.about_thumb:nth-child(even) {
+    margin-bottom: 3px;
+    position: relative;
+    left: 158px;
+}
 
+.icon_circle {
+    display: block;
+    width: 107px;
+    height: 107px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: rgb(38,54,179);
+    background: -moz-linear-gradient(-45deg,  rgba(38,54,179,1) 0%, rgba(74,97,212,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(38,54,179,1) 0%,rgba(74,97,212,1) 100%);
+    background: linear-gradient(135deg,  rgba(38,54,179,1) 0%,rgba(74,97,212,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2636b3', endColorstr='#4a61d4',GradientType=1 );
+    -webkit-box-shadow: 16px 16px 26px 2px rgba(0,0,0,.15);
+    -moz-box-shadow: 16px 16px 26px 2px rgba(0,0,0,.15);
+    box-shadow: 16px 16px 26px 2px rgba(0,0,0,.15);
+    position: absolute;
+    top: -34px;
+    left: 181px;
+    z-index: 3;
+}
+
+.icon_circle img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 63px;
+    max-height: 63px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.about_thumb svg {
+    position: absolute;
+    top: 28px;
+    left: 25px;
+}
+
+.about_thumb h3 {
+    text-transform: uppercase;
+    padding: 9px 0;
+    font-size: 18px;
+    line-height: 22px;
+    color: #181f78;
+    font-weight: bold;
+}
+
+.about_thumb p {
+    padding: 6px 0;
+    font-size: 15px;
+    line-height: 19px;
+    color: #373737;
+    font-weight: normal;
+}
+
+.about_thumb .thumb_text {
+    max-width: 630px;
+    position: absolute;
+    top: 68px;
+    left: 326px;
+    z-index: 2;
+}
 
 /*-- /Section 2 - Main Page --*/
 

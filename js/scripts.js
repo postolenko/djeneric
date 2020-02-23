@@ -32,6 +32,7 @@ $(document).ready(function() {
             speed: 1200,
             slidesToShow: 3,
             slidesToScroll: 1,
+            infinite: false,
             responsive: [
                 {
                   breakpoint: 920,
