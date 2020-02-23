@@ -6,24 +6,20 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 
 $(window).load(function() {
-
-
-
+    $("body").removeClass("fixedLoad");
 });
 
 $(window).resize(function() {
-
-
-
+    bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 });
 
 $(document).scroll(function() {
 
-
-
 });
 
 $(document).ready(function() {
+
+    $("body").addClass("fixedLoad");
 
     if( $(".goods_slider").length > 0 ) {
         $(".goods_slider").not(".slick-initialized").slick({
@@ -166,9 +162,15 @@ $(document).ready(function() {
     // ----------
 
     $(".scroll_down").click(function(e) {
+        var topCoord;
         e.preventDefault();
+        if(bodyWidth > 900) {
+            topCoord = $(this).closest("section").next("section").offset().top;
+        } else {
+            topCoord = $(this).closest("section").next("section").offset().top - $(".header_site").height();
+        }
         $("body, html").animate({
-            scrollTop: $(this).closest("section").next("section").offset().top
+            scrollTop: topCoord
         }, 1000);
     });
 

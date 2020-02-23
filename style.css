@@ -274,6 +274,13 @@ textarea:focus {
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
 
+.fixedLoad {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .row {
     max-width: 1230px;
     margin: 0 auto;
