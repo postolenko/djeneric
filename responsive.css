@@ -276,8 +276,8 @@
 	    padding: 15px 0;
 	}
 
-	.bg_2 {
-		background-image: none;
+	.bg_image {
+		display: none !important;
 	}
 
 	.text_wrapp p {
